@@ -40,3 +40,27 @@ body{
 #img:hover{
     cursor: zoom-in;
 }
+main{
+    display: flex;
+    flex-direction: row;
+}
+#firstbox{
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    color: white;
+    padding: 10px;
+}
+
+#secondbox{
+    display: flex;
+    flex-direction: column;
+    width: 180%;
+    padding: 10px;
+}
+h2{
+    background-color: #dbc2a4;
+}
+h2:hover{
+    border-right-color: #782221;
+}
